@@ -106,7 +106,7 @@ export default function Navbar() {
 
           {/* Abstract Mobile Menu Dots */}
           <button
-            className="md:hidden flex items-center gap-[6px] p-2 z-50 relative"
+            className="md:hidden absolute right-0 top-1/2 -translate-y-1/2 flex items-center gap-[6px] p-2 z-50"
             aria-label="Menu"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >

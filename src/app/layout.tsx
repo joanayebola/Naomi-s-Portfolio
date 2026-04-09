@@ -15,7 +15,7 @@ const cormorantGaramond = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: "Naomi | Fashion Model",
-  description: "A fashion model portfolio.",
+  description: "Portfolio of Okoh Naomi, a fashion model blending editorial presence, contemporary African fashion, and modern visual storytelling.",
   icons: {
     icon: "/favicon.png",
   },

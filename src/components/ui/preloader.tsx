@@ -68,7 +68,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
           </div>
 
           {/* Subtle gold accent line top center */}
-          <div className="absolute top-0 w-[1px] h-16 md:h-24 bg-accent opacity-30 z-10" />
+          <div className="absolute top-0 w-[1px] h-16 md:h-24 bg-[#db2777]/30 z-10" />
 
           {/* Name Wrap */}
           <div className="relative z-10 flex overflow-hidden pb-4 mb-2">
@@ -90,7 +90,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.2, duration: 1, ease: "easeOut" }}
-            className="relative z-10 eyebrow tracking-[0.3em] md:tracking-[0.4em] opacity-60 text-[10px] md:text-xs text-foreground"
+            className="relative z-10 font-medium tracking-[0.3em] md:tracking-[0.4em] text-[10px] md:text-xs text-[#db2777] uppercase"
           >
             LAGOS BASED MODEL
           </motion.p>

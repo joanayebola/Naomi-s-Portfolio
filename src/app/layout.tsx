@@ -14,8 +14,11 @@ const cormorantGaramond = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Naomi | Modern Fashion Portfolio",
-  description: "A premium, light luxury editorial fashion model portfolio.",
+  title: "Naomi | Fashion Model",
+  description: "A fashion model portfolio.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

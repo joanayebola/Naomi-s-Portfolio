@@ -29,14 +29,14 @@ function EditorialImage({ src, aspect, delay, className }: { src: string, aspect
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-[90vh] md:min-h-screen pt-28 md:pt-[24vh] pb-24 px-4 md:px-8 flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative w-full min-h-[90vh] md:min-h-screen pt-24 md:pt-40 lg:pt-[20vh] pb-24 px-4 md:px-6 lg:px-8 flex flex-col items-center justify-start lg:justify-center overflow-hidden">
 
       {/* Structural Editorial Grid Composer */}
       {/* 
         Desktop: Bottom-aligned (items-end) grid ensures a disciplined, sharp baseline across the image triad.
         Mobile: True 2-column grid. The CTA is integrated as a tile to resolve the bottom edge.
       */}
-      <div className="relative z-10 max-w-[1300px] mx-auto w-full grid grid-cols-2 md:grid-cols-12 gap-3 md:gap-4 items-end group/hero">
+      <div className="relative z-10 max-w-[1450px] mx-auto w-full grid grid-cols-2 md:grid-cols-12 gap-3 md:gap-5 lg:gap-4 items-end group/hero transition-all duration-700">
 
         {/* Left Column Supporting Images */}
         <div className="flex flex-col gap-3 md:gap-4 w-full z-10 order-2 md:order-1 col-span-1 md:col-span-3">

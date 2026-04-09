@@ -94,10 +94,10 @@ export default function About() {
 
             {/* Decorative Grid Elements & Editorial Box */}
             <div className="absolute -top-4 -right-4 w-24 h-24 border border-purple-500/10 z-0 hidden lg:block" />
-            
+
             {/* The "Box Underneath" - A solid editorial accent offset */}
             <div className="absolute -bottom-6 -right-6 w-full h-full bg-pink-500/5 rounded-[1px] -z-10 hidden md:block border border-pink-500/10" />
-            
+
             <div className="absolute -bottom-4 -left-4 w-24 h-24 border border-pink-500/10 z-0 hidden lg:block" />
           </div>
 

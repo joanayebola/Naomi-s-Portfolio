@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="relative w-full min-h-screen bg-black text-white overflow-hidden py-24 md:py-32 flex flex-col justify-center">
+    <section id="about" className="relative w-full min-h-[90vh] md:min-h-0 lg:min-h-screen bg-black text-white overflow-hidden py-20 md:py-20 lg:py-32 flex flex-col justify-center">
 
       {/* Premium Bubbly Glows - Fashion Forward Accents */}
       <div className="absolute top-1/4 -left-20 w-[40vw] h-[40vw] bg-purple-600/20 rounded-full blur-[120px] pointer-events-none" />

@@ -46,7 +46,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
     }),
   };
 
-  const letters = "Néomi".split("");
+  const letters = "Noèmi".split("");
 
   return (
     <AnimatePresence>

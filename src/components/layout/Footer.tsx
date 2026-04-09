@@ -8,12 +8,12 @@ export default function Footer() {
 
   return (
     <footer id="connect" className="w-full bg-[#FDFCF8] pb-6 pt-8 px-6 md:px-12">
-      <div className="container-shell max-w-[1400px] mx-auto">
+      <div className="container-shell md:max-w-[900px] lg:max-w-[1400px] mx-auto">
 
         {/* Subtle top divider */}
-        <div className="w-full h-[1px] bg-black/5 mb-16" />
+        <div className="w-full h-[1px] bg-black/5 mb-10 lg:mb-16" />
 
-        <div className="flex flex-col md:flex-row justify-between items-center gap-12 text-center md:text-left">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-10 lg:gap-12 text-center md:text-left">
 
           {/* Brand Mark */}
           <div className="flex flex-col gap-2">
@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
 
           {/* Rapid Navigation / Social Links */}
-          <nav className="flex items-center gap-10 md:gap-16">
+          <nav className="flex items-center gap-10 lg:gap-16">
             <Link
               href="https://instagram.com/na0miverse"
               target="_blank"
@@ -77,7 +77,7 @@ export default function Footer() {
           whileInView={{ scaleX: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
-          className="w-full h-[1px] bg-gradient-to-r from-transparent via-black/10 to-transparent mt-24 mb-4"
+          className="w-full h-[1px] bg-gradient-to-r from-transparent via-black/10 to-transparent mt-12 md:mt-16 lg:mt-24 mb-4"
         />
 
       </div>

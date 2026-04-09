@@ -29,7 +29,7 @@ function EditorialImage({ src, aspect, delay, className }: { src: string, aspect
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-[90vh] md:min-h-screen pt-24 md:pt-40 lg:pt-[20vh] pb-24 px-4 md:px-6 lg:px-8 flex flex-col items-center justify-start lg:justify-center overflow-hidden">
+    <section className="relative w-full min-h-[90vh] md:min-h-0 lg:min-h-screen pt-24 md:pt-40 lg:pt-[20vh] pb-12 md:pb-16 lg:pb-24 px-4 md:px-6 lg:px-8 flex flex-col items-center justify-start lg:justify-center overflow-hidden">
 
       {/* Structural Editorial Grid Composer */}
       {/* 
